@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="modal-overlay"></div>
+    <nav class="nav">
+      <header class="nav_title">Shortly</header>
+
+      <div class="nav_details">
+        <div class="nav_first">
+          <span class="nav_features">Features</span>
+          <span class="nav_pricing">Pricing</span>
+          <span class="nav_resources">Recources</span>
+        </div>
+        <div class="line"></div>
+        <div class="nav_second">
+          <span class="nav_login">Login</span>
+          <button class="nav_signup">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="menu-1"></div>
+        <div class="menu-2"></div>
+        <div class="menu-3"></div>
+      </div>
+    </nav>
+
+    <div class="main-wrapper">
+      <main class="main-container">
+        <div class="main-img"></div>
+      </main>
+
+      <section class="content">
+        <p class="content-1">More than just shorter links</p>
+        <p class="content-2">
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="get-started">Get Started</button>
+      </section>
+
+      <div class="link">
+        <input
+          type="text"
+          class="input-link"
+          id="input-link"
+          placeholder="Shorten a link here.."
+        />
+        <button class="link-btn">Shorten it!</button>
+        <div class="alert-msg"></div>
+      </div>
+    </div>
+
+    <section class="branch-section">
+      <p class="branch-secition-1">Advanced Statistics</p>
+      <p class="branch-secition-2">
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </p>
+
+      <div class="modal">
+        <div class="modal-img">
+          <img
+            alt="branch recognition"
+            src="./images/icon-brand-recognition.svg"
+          />
+        </div>
+        <div class="modal-title">Brand Recognition</div>
+        <div class="modal-text">
+          Boost your brand recognition with each click. Generic links don’t mean
+          a thing. Branded links help instil confidence in your content.
+        </div>
+      </div>
+
+      <div class="blue-line"></div>
+
+      <div class="modal">
+        <div class="modal-img">
+          <img
+            alt="Detailed records"
+            src="./images/icon-detailed-records.svg"
+          />
+        </div>
+        <div class="modal-title">Detailed Records</div>
+        <div class="modal-text">
+          Gain insights into who is clicking your links. Knowing when and where
+          people engage with your content helps inform better decisions.
+        </div>
+      </div>
+
+      <div class="blue-line"></div>
+
+      <div class="modal last">
+        <div class="modal-img">
+          <img
+            alt="Detailed records"
+            src="./images/icon-fully-customizable.svg"
+          />
+        </div>
+        <div class="modal-title">Fully Customizable</div>
+        <div class="modal-text">
+          Improve brand awareness and content discoverability through
+          customizable links, supercharging audience engagement.
+        </div>
+      </div>
+
+      <section class="boost-section">
+        <div class="boost-title">Boost your links today</div>
+        <button class="get-started">Get Started</button>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-title">Shortly</div>
+  
+        <div class="footer-features">
+          <div class="footer-features-title">Features</div>
+          <ul class="footer-features-lists">
+            <li>Link Shortening</li>
+            <li>Branded Links</li>
+            <li>Analytics</li>
+          </ul>
+        </div>
+  
+        <div class="footer-features">
+          <div class="footer-features-title">Resources</div>
+          <ul class="footer-features-lists">
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+          </ul>
+        </div>
+  
+        <div class="footer-features">
+          <div class="footer-features-title">Company</div>
+          <ul class="footer-features-lists">
+            <li>Link About</li>
+            <li>Our Team</li>
+            <li>Careers</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <img alt="facebook" src="./images/icon-facebook.svg">
+          <img alt="twitter" src="./images/icon-twitter.svg">
+          <img alt="pininterest" src="./images/icon-pinterest.svg">
+          <img alt="instagram" src="./images/icon-instagram.svg">
+        </div>
+      </footer>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
