@@ -2,7 +2,7 @@
 
 The URL shortening API landing page web app is designed using HTML, CSS and Javascript. It covers all device layouts made responsive using Media queries.
 
-Link : 
+Link : https://aadhavan-va.github.io/URL-shortening-API-landing-page/
 
 ### Mobile Layout Recording ✨
 
