@@ -14,8 +14,7 @@ https://user-images.githubusercontent.com/51418721/196027598-7344923a-add8-43bc-
 ### Desktop Layout Screen Recording ✨
 
 
+https://user-images.githubusercontent.com/51418721/196169087-12c65dbe-44c3-424a-9218-786eb65ed3d8.mov
 
-
-https://user-images.githubusercontent.com/51418721/196027591-cc5d5686-9e5e-436a-af32-882c04542cd3.mov
 
 
